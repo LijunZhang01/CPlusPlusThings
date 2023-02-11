@@ -14,5 +14,5 @@
 - 不能继承自其他类，不能作为基类
 - 不能含有虚函数
 - 匿名 union 在定义所在作用域可直接访问 union 成员
-- 匿名 union 不能包含 protected 成员或 private 成员
-- 全局匿名联合必须是静态（static）的
+- 匿名 union 不能包含 protected 成员或 private 成员，匿名union也不能包含成员函数。
+- 全局匿名联合必须是静态（static）的，但这是为啥捏，
